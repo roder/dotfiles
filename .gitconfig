@@ -1,0 +1,13 @@
+[user]
+	name = roder
+	email = 33751+roder@users.noreply.github.com
+[core]
+  editor = cursor --wait
+[diff]
+  tool = cursor
+[difftool "cursor"]
+  cmd = cursor --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = cursor
+[mergetool "cursor"]
+  cmd = cursor --wait $MERGED
